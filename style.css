@@ -19,15 +19,20 @@ body {
 
 /* Botões */
 .btn {
-    display: inline-block;
+    display: flex;
     padding: 12px 30px;
     text-decoration: none;
     border-radius: 5px;
-    font-weight: 600;
+    font-weight: bold;
     text-align: center;
+    align-items: center;
     transition: all 0.3s ease;
     border: 2px solid transparent;
     cursor: pointer;
+    line-height: 1;
+    vertical-align: middle;
+    box-sizing: border-box;
+    font-size: 1.19rem;
 }
 
 .btn-primary {
