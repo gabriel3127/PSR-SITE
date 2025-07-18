@@ -463,6 +463,32 @@ body {
     color: #ccc;
 }
 
+.social-links {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    justify-content: flex-start;
+}
+
+.social-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #febb0f;
+    color: #214194;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.social-icon:hover {
+    background-color: #e5a50d;
+    transform: translateY(-2px);
+}
+
 .whatsapp-float {
     position: fixed;
     width: 60px;
